@@ -1798,7 +1798,7 @@
 // // // import axios from "axios"
 
 // // // // Configure axios base URL
-// // // axios.defaults.baseURL = "http://localhost:5000/api"
+// // // axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 // // // const ProductDetailPage = () => {
 // // //   const { id } = useParams() // Changed from productSlug to id to match the route /products/:id
@@ -2322,7 +2322,7 @@
 // // import axios from "axios"
 
 // // // Configure axios base URL
-// // axios.defaults.baseURL = "http://localhost:5000/api"
+// // axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 // // const ProductDetailPage = () => {
 // //   const { id } = useParams() // Route is /products/:id
@@ -2846,7 +2846,7 @@
 // import axios from "axios"
 
 // // Configure axios base URL
-// axios.defaults.baseURL = "http://localhost:5000/api"
+// axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 // const ProductDetailPage = () => {
 //   const { id } = useParams()
@@ -3366,7 +3366,7 @@ import RelatedProducts from "../components/products/RelatedProducts"
 import axios from "axios"
 
 // Configure axios base URL
-axios.defaults.baseURL = "http://localhost:5000/api"
+axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 const ProductDetailPage = () => {
   const { id } = useParams()

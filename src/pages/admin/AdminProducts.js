@@ -14,7 +14,7 @@
 // // import axios from "axios";
 
 // // // Configure axios base URL
-// // axios.defaults.baseURL = "http://localhost:5000/api";
+// // axios.defaults.baseURL = "https://raycom-backend.onrender.com/api";
 
 // // // Define ProductForm as a separate component
 // // const ProductForm = ({
@@ -943,7 +943,7 @@
 // // // import axios from "axios";
 
 // // // // Configure axios base URL
-// // // axios.defaults.baseURL = "http://localhost:5000/api";
+// // // axios.defaults.baseURL = "https://raycom-backend.onrender.com/api";
 
 // // // // Define ProductForm as a separate component
 // // // const ProductForm = ({
@@ -1841,7 +1841,7 @@
 // // // // import axios from "axios"
 
 // // // // // Configure axios base URL
-// // // // axios.defaults.baseURL = "http://localhost:5000/api"
+// // // // axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 // // // // const AdminProducts = () => {
 // // // //     const [products, setProducts] = useState([])
@@ -3318,7 +3318,7 @@
 // import axios from "axios";
 
 // // Configure axios base URL
-// axios.defaults.baseURL = "http://localhost:5000/api";
+// axios.defaults.baseURL = "https://raycom-backend.onrender.com/api";
 
 // // Define ProductForm as a separate component
 // const ProductForm = ({
@@ -4246,7 +4246,7 @@ import AdminLayout from "../../components/admin/AdminLayout";
 import axios from "axios";
 
 // Configure axios base URL
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://raycom-backend.onrender.com/api";
 
 // Define ProductForm as a separate component
 const ProductForm = ({

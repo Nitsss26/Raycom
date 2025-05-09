@@ -165,7 +165,7 @@ const CategoryGrid = () => {
                     initialCategories.map(async (category) => {
                         try {
                             const response = await axios.get(
-                                `http://localhost:5000/api/products/category/${category.id}`
+                                `https://raycom-backend.onrender.com/api/products/category/${category.id}`
                             );
                             const count = response.data.pagination.total || 0; // Extract total count from pagination
                             return { ...category, count };

@@ -610,7 +610,7 @@
 // // // import axios from "axios"
 
 // // // // Set base URL for API requests
-// // // axios.defaults.baseURL = process.env.REACT_APP_API_URL || "http://localhost:5000/api"
+// // // axios.defaults.baseURL = process.env.REACT_APP_API_URL || "https://raycom-backend.onrender.com/api"
 
 // // // // Add token to requests if available
 // // // const token = localStorage.getItem("token")
@@ -838,7 +838,7 @@
 // // import axios from "axios"
 
 // // // Set base URL for API requests
-// // axios.defaults.baseURL = process.env.REACT_APP_API_URL || "http://localhost:5000/api"
+// // axios.defaults.baseURL = process.env.REACT_APP_API_URL || "https://raycom-backend.onrender.com/api"
 
 // // // Add token to requests if available
 // // const token = localStorage.getItem("token")
@@ -1209,10 +1209,10 @@
 // import axios from "axios"
 
 // // Set base URL for API requests
-// axios.defaults.baseURL = process.env.REACT_APP_API_URL || "http://localhost:5000/api"
+// axios.defaults.baseURL = process.env.REACT_APP_API_URL || "https://raycom-backend.onrender.com/api"
 
 // const api = axios.create({
-//   baseURL: "http://localhost:5000/api",
+//   baseURL: "https://raycom-backend.onrender.com/api",
 // });
 
 // api.interceptors.request.use((config) => {
@@ -1714,10 +1714,10 @@
 import axios from "axios"
 
 // Set base URL for API requests
-axios.defaults.baseURL = process.env.REACT_APP_API_URL || "http://localhost:5000/api"
+axios.defaults.baseURL = process.env.REACT_APP_API_URL || "https://raycom-backend.onrender.com/api"
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://raycom-backend.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {

@@ -987,7 +987,7 @@
 // import axios from "axios"
 
 // // Configure axios base URL
-// axios.defaults.baseURL = "http://localhost:5000/api"
+// axios.defaults.baseURL = "https://raycom-backend.onrender.com/api"
 
 // const RequestDetail = () => {
 //     const { requestId } = useParams()
@@ -1221,7 +1221,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 // Configure axios base URL
-axios.defaults.baseURL = "http://localhost:5000/api";
+axios.defaults.baseURL = "https://raycom-backend.onrender.com/api";
 
 const RequestDetail = () => {
     const { requestId } = useParams();
